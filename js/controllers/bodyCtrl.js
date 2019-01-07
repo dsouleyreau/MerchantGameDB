@@ -5,7 +5,7 @@ angular.module('mainApp')
 
 		// Game Version Numbers
 		$scope.betaVersion = "2.924";
-		$scope.liveVersion = "2.68";
+		$scope.liveVersion = "2.93";
 
 		// Logic for the "Latest Guides" sidebar widget
 		guidesService.getGuides().then(function (listOfGuides) {
